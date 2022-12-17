@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <title>CHARITY</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+<body>
+
+    <!-- navigation bar -->
+    <nav id="nav">
+        <div class="container">
+            <div class="logo">
+                <h3>ZIREX</h3>
+            </div>
+            <ul class="nav-list">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About us</a></li>
+                <li><a href="./faq.html">FAQs</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li class="alert"><a href="" ></a>Donate</a></li>
+            </ul>
+            <li class="menu-container"><img src="./images/menu.png" class="menu-bar" alt=""></li>
+            <li class="menu-container1"><img src="./images/menu.png" class="menu-bar" alt=""></li>
+
+            
+            
+        </div>
+    </nav>
+    <!-- navigation bar end -->
+
+    <!-- main -->
+
+    <!-- ------------about --------------- -->
+    <div class="about">
+        <div class="about-container">
+            <div class="bro mySwiper">
+                <div class="move swiper-wrapper">
+                    <div class="image swiper-slide">
+                        <img src="./images/about.jpg" alt="">
+                    </div>
+                    <!-- <div class="image swiper-slide">
+                        <img src="./images/about.jpg" alt="">
+                    </div> 
+                    <div class="image swiper-slide">
+                        <img src="./images/about.jpg" alt="">
+                    </div> -->
+                </div>
+            </div>
+            <div class="about-content">
+                <div class="h1">
+                    Full Detais on Us
+                </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing 
+                    elit. Cupiditate esse vero aspernatur illum 
+                    repellendus hic maxime ipsam vitae. Aliquam, eum?
+                </p>
+                
+                
+            </div>
+        </div>
+    </div>
+    <!-- -------xx-----about -----xx-------- -->
+
+     <!----------------------------Footer Section-------------------------------------->
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>About us</h2>
+                    <a href="/sign-up">How it works</a>
+                    <a href="/sign-up">Testimonials</a>
+                    <a href="/sign-up">Careers</a>
+                    <a href="/sign-up">Terms of Service</a>
+                </div>
+            
+                
+                <div class="footer__link--items">
+                    <h2>Contact Us</h2>
+                    <a href="/sign-up">Contact</a>
+                    <a href="/sign-up">Support</a>
+                    <a href="/sign-up">Destination</a>
+                </div>
+            
+            </div>
+            <div class="footer__link--wrapper">
+                <div class="footer__link--items">
+                    <h2>Videos</h2>
+                    <a href="/sign-up">Submite Video</a>
+                    <a href="/sign-up">Ambassadors</a>
+                    <a href="/sign-up">Agency</a>
+                </div>
+            
+                <div class="footer__link--items">
+                    <h2>Social Media</h2>
+                    <a href="/sign-up">Instagram</a>
+                    <a href="/sign-up">Facebook</a>
+                    <a href="/sign-up">Youtube</a>
+                    <a href="/sign-up">Twitter</a>
+                </div>
+            </div>      
+        </div>
+        <section class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo">Codezilar</a>
+                </div>
+                <p class="website__rights">Lets share love || Codezilar 2022. All right reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+
+                    <a href="/" class="social__icon--link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          dynamicBullets: true,
+        },
+        // when window width is >= 600
+        breakpoints: {
+            10000000000: {
+                slidesPerView: 1,
+            }
+        }
+      });
+    </script>
+<!-------x---------footer end----------x-------------->
+</body>
